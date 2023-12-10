@@ -204,6 +204,18 @@ document.addEventListener('DOMContentLoaded', () => {
       categories: ["all", "tool"],
       error: false
     },
+     {
+      name: "Roblox (Now.GG Alternative)",
+      link: "https://nowgg.nl/play/roblox-corporation/5349/roblox",
+      image: "/assets/media/icons/roblox.png",
+      categories: ['all', 'emu']
+    },
+    {
+      name: "Now.GG (Alternative)",
+      link: "https://nowgg.nl",
+      image: "/assets/media/icons/now-gg.png",
+      categories: ['all', 'emu']
+    },
     {
       name: "Y8 Games",
       link: "https://y8.com/",
@@ -237,7 +249,8 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://chat.shuttle.rip/",
       image: "/images/icons/chatgpt.png",
       categories: ["all", "AI"],
-      error: false
+      say: "ChatGPT Clone is currently not working on the proxy.",
+      error: true
     },
     {
       name: "Discord - Login",
